@@ -26,7 +26,7 @@
       <a href="#">SeungYup</a>
     </div>
     <ul class="navbar__menu">
-      <li class="navbar__menu__item active" data-link="#home">Home</li>
+      <li class="navbar__menu__item selected" data-link="#home">Home</li>
       <li class="navbar__menu__item" data-link="#about">About</li>
       <li class="navbar__menu__item" data-link="#skills">Skills</li>
       <li class="navbar__menu__item" data-link="#work">My work</li>
@@ -143,10 +143,10 @@
         <div class="skill">
           <div class="skill__description">
             <span>JavaScript</span>
-            <span>70%</span>
+            <span>80%</span>
           </div>
           <div class="skill__bar">
-            <div class="skill__value" style="width: 70%"></div>
+            <div class="skill__value" style="width: 80%"></div>
           </div>
         </div>
         <div class="skill">
@@ -205,20 +205,20 @@
     <div class="container__section">
       <h1>My work</h1>
       <h3>Projects</h3>
-      <!-- 스크린샷 따올 수 있는 것만 사용하자 -->
       <div class="work__categories">
-        <button class="category__btn active">
+        <button class="category__btn selected" data-filter="*">
           All <span class="category__count">5</span>
         </button>
-        <button class="category__btn">
+        <button class="category__btn"  data-filter="front-end">
           Front-end <span class="category__count">4</span>
         </button>
-        <button class="category__btn">
+        <button class="category__btn"  data-filter="back-end">
           Back-end <span class="category__count">1</span>
         </button>
       </div>
       <div class="work__projects">
-        <a href="https://github.com/hsy118/Co-Meet" 
+        <a href="https://github.com/hsy118/Co-Meet"  
+          data-type="front-end"
           target="_blank"
           class="project"
           >
@@ -231,6 +231,7 @@
             </div>
         </a>
         <a href="https://github.com/hsy118/Dreamy" 
+          data-type="front-end"
           target="_blank"
           class="project"
           >
@@ -243,7 +244,8 @@
               <span>Bucket-list managin SNS</span>
             </div>
         </a>
-        <a href="https://github.com/hsy118/movie_project" 
+        <a href="https://github.com/hsy118/movie_project"
+        data-type="front-end" 
         target="_blank"
         class="project"
         >
@@ -257,6 +259,7 @@
           </div>
         </a>
         <a href="https://github.com/hsy118/responsive-navbar" 
+        data-type="front-end"
         target="_blank"
         class="project"
         >
@@ -270,6 +273,7 @@
           </div>
         </a>
         <a href="https://github.com/hsy118/Larochepoche_cloning" 
+        data-type="back-end"
         target="_blank"
         class="project"
         >
