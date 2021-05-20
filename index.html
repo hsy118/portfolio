@@ -1,338 +1,385 @@
 <!DOCTYPE html>
 <html lang="ko">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SY's Portfolio</title>
-    <meta name="description" content="Portfolio for the great engineer SY">
-    <meta name="author" content="Sengyup">
+    <meta name="description" content="Portfolio for the great engineer SY" />
+    <meta name="author" content="Sengyup" />
     <link rel="icon" type="image/png" href="imgs/logo.png" />
     <!-- font awesome -->
-    <script src="https://kit.fontawesome.com/74ef533924.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/74ef533924.js"
+      crossorigin="anonymous"
+    ></script>
     <!-- google fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
     <!-- css에 넣을 내용 -->
     <!-- font-family: 'Open Sans', sans-serif; -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <script src="main.js" defer></script>
-</head>
-<body>
-  <!-- Navbar -->
-  <nav id="navbar">
-    <div class="navbar__logo">
-      <img src="imgs/logo.png" alt="logo">
-      <a href="#" class="logo-text">SeungYup</a>
-    </div>
-    <ul class="navbar__menu">
-      <li class="navbar__menu__item selected" data-link="#home">Home</li>
-      <li class="navbar__menu__item" data-link="#about">About</li>
-      <li class="navbar__menu__item" data-link="#skills">Skills</li>
-      <li class="navbar__menu__item" data-link="#work">My work</li>
-      <li class="navbar__menu__item" data-link="#testimonials">Testimonials</li>
-      <li class="navbar__menu__item" data-link="#contact">Contact</li>
-    </ul>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav id="navbar">
+      <div class="navbar__logo">
+        <img src="imgs/logo.png" alt="logo" />
+        <a href="#" class="logo-text">SeungYup</a>
+      </div>
+      <ul class="navbar__menu">
+        <li class="navbar__menu__item selected" data-link="#home">Home</li>
+        <li class="navbar__menu__item" data-link="#about">About</li>
+        <li class="navbar__menu__item" data-link="#skills">Skills</li>
+        <li class="navbar__menu__item" data-link="#work">My work</li>
+        <li class="navbar__menu__item" data-link="#testimonials">
+          Testimonials
+        </li>
+        <li class="navbar__menu__item" data-link="#contact">Contact</li>
+      </ul>
 
-    <!-- Toggle button -->
-    <button class="navbar__toggle-btn">
-      <i class="fas fa-bars"></i>
-    </button>
-  </nav>
-  <!-- Home -->
-  <section id="home">
-    <div class="home__container">
-      <img 
-        src="imgs/me.png" 
-        alt="sy's photo"
-        class="home__avatar"
-      />
-      <h1 class="home__title">Hello, <br /> I'm Passionate Coder</h1>
-      <h2 class="home__description">
-        A Developer for solving problems for the people, by the people 
-      </h2>
-      <button class="home__contact">Contact Me</button>
-    </div>
-  </section>
-  <!-- About -->
-  <section id="about" class="section secction__container">
-    <h1>About Me</h1>
-    <p>I started to study in Wecode Bootcamp for 2 month, then got accepted in 
-      'Samsung Software Academy for Youth'(SSAFY) program. I have been studying programming 
-      for 8 month in SSAFY. In here, I've learn Web, network, Backend engineering with Django,
-      frontend and algorithm with python.
-    </p>
-    <div class="about__majors">
-      <div class="major">
-        <div class="major__icon">
-          <i class="fab fa-html5"></i>
-        </div>
-        <div class="major__title">Front-end</div>
-        <div class="major__description">Html, CSS, JavaScript</div>
+      <!-- Toggle button -->
+      <button class="navbar__toggle-btn">
+        <i class="fas fa-bars"></i>
+      </button>
+    </nav>
+    <!-- Home -->
+    <section id="home">
+      <div class="home__container">
+        <img src="imgs/me.png" alt="sy's photo" class="home__avatar" />
+        <h1 class="home__title">
+          Hello, <br />
+          I'm Passionate Coder
+        </h1>
+        <h2 class="home__description">
+          A Developer for solving problems for the people, by the people
+        </h2>
+        <button class="home__contact">Contact Me</button>
       </div>
-      <div class="major">
-        <div class="major__icon">
-          <i class="fab fa-vuejs"></i>
+    </section>
+    <!-- About -->
+    <section id="about" class="section secction__container">
+      <h1>About Me</h1>
+      <p>
+        I started to study in Wecode Bootcamp for 2 month, then got accepted in
+        'Samsung Software Academy for Youth'(SSAFY) program. I have been
+        studying programming for 8 month in SSAFY. In here, I've learn Web,
+        network, Backend engineering with Django, frontend and algorithm with
+        python.
+      </p>
+      <div class="about__majors">
+        <div class="major">
+          <div class="major__icon">
+            <i class="fab fa-html5"></i>
+          </div>
+          <div class="major__title">Front-end</div>
+          <div class="major__description">Html, CSS, JavaScript</div>
         </div>
-        <div class="major__title">Framework</div>
-        <div class="major__description">Vue</div>
-      </div>
-      <div class="major">
-        <div class="major__icon">
-          <i class="fas fa-server"></i>
+        <div class="major">
+          <div class="major__icon">
+            <i class="fab fa-vuejs"></i>
+          </div>
+          <div class="major__title">Framework</div>
+          <div class="major__description">React, Vue</div>
         </div>
+        <div class="major">
+          <div class="major__icon">
+            <i class="fas fa-server"></i>
+          </div>
           <div class="major__title">Back-end</div>
           <div class="major__description">Django, Python</div>
-      </div>
-    </div>
-    <div class="about__jobs">
-      <div class="job">
-        <img src="imgs/jobs/samsung_logo.png" 
-          alt="samsung_logo" 
-          class="job_logo" 
-        />
-        <div class="job__description">
-          <p class="job__name">Samsung Software Academy for Youth in Seoul 4th</p>
-          <p class="job__period">2020-07 ~ 2021-06</p>
         </div>
       </div>
-      <div class="job">
-        <img src="imgs/jobs/SUNY_Logo.jpg" 
-          alt="SUNY_logo" 
-          class="job_logo" 
-        />
-        <div class="job__description">
-          <p class="job__name">State University of New York</p>
-          <p class="job__period">2012-08 ~ 2016-06</p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- Skills -->
-  <section id="skills" class="section">
-    <div class="section__container">
-      <h1>Skills</h1>
-    <h2>Skills & Attributes</h2>
-    <p>
-      Experience with all phases of the Web life-cycle. Passion for learning new technologies.
-      Capable of working within a team environment and independently. Like to think about future
-      deeply and enjoy to have a conversation seriously with others. Available to work under strict time pressure
-      and adapt quickly when it needed. 
-    </p>
-    <div class="skillset">
-      <div class="skillset__left">
-        <h3 class="skillset__title">Skills</h3>
-        <div class="skill">
-          <div class="skill__description">
-            <span>HTML</span>
-            <span>95%</span>
-          </div>
-          <div class="skill__bar">
-            <div class="skill__value" style="width: 95%"></div>
+      <div class="about__jobs">
+        <div class="job">
+          <img
+            src="imgs/jobs/samsung_logo.png"
+            alt="samsung_logo"
+            class="job_logo"
+          />
+          <div class="job__description">
+            <p class="job__name">
+              Samsung Software Academy for Youth in Seoul 4th
+            </p>
+            <p class="job__period">2020-07 ~ 2021-06</p>
           </div>
         </div>
-        <div class="skill">
-          <div class="skill__description">
-            <span>CSS</span>
-            <span>90%</span>
-          </div>
-          <div class="skill__bar">
-            <div class="skill__value" style="width: 90%"></div>
-          </div>
-        </div>
-        <div class="skill">
-          <div class="skill__description">
-            <span>JavaScript</span>
-            <span>80%</span>
-          </div>
-          <div class="skill__bar">
-            <div class="skill__value" style="width: 80%"></div>
-          </div>
-        </div>
-        <div class="skill">
-          <div class="skill__description">
-            <span>Vue</span>
-            <span>90%</span>
-          </div>
-          <div class="skill__bar">
-            <div class="skill__value" style="width: 90%"></div>
-          </div>
-        </div>
-        <div class="skill">
-          <div class="skill__description">
-            <span>Python</span>
-            <span>80%</span>
-          </div>
-          <div class="skill__bar">
-            <div class="skill__value" style="width: 80%"></div>
-          </div>
-        </div>
-        <div class="skill">
-          <div class="skill__description">
-            <span>Django</span>
-            <span>70%</span>
-          </div>
-          <div class="skill__bar">
-            <div class="skill__value" style="width: 70%"></div>
+        <div class="job">
+          <img src="imgs/jobs/SUNY_Logo.jpg" alt="SUNY_logo" class="job_logo" />
+          <div class="job__description">
+            <p class="job__name">State University of New York</p>
+            <p class="job__period">2012-08 ~ 2016-06</p>
           </div>
         </div>
       </div>
-      <div class="skillset__right">
-        <div class="tools">
-          <h3 class="skillset__title"  style="margin-top: 0px;">Tools</h3>
-          <ul class="tools__list" style="padding-bottom: 14px;">
-            <li><span>VisualStudio Code</span></li>
-            <li><span>Project managing tools</span></li>
-            <li><span>Pycharm</span></li>
-            <li><span>WireFrame tools</span></li>
-          </ul>
-        </div>
-        <div class="etc">
-          <h3 class="skillset__title">etc . .</h3>
-          <ul class="etc__list">
-            <li><span>Git</span></li>
-            <li><span>JIRA</span></li>
-            <li><span>Documentation</span></li>
-          </ul>
+    </section>
+    <!-- Skills -->
+    <section id="skills" class="section">
+      <div class="section__container">
+        <h1>Skills</h1>
+        <h2>Skills & Attributes</h2>
+        <p>
+          Experience with all phases of the Web life-cycle. Passion for learning
+          new technologies. Capable of working within a team environment and
+          independently. Like to think about future deeply and enjoy to have a
+          conversation seriously with others. Available to work under strict
+          time pressure and adapt quickly when it needed.
+        </p>
+        <div class="skillset">
+          <div class="skillset__left">
+            <h3 class="skillset__title">Skills</h3>
+            <div class="skill">
+              <div class="skill__description">
+                <span>HTML</span>
+                <span>95%</span>
+              </div>
+              <div class="skill__bar">
+                <div class="skill__value" style="width: 95%"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill__description">
+                <span>CSS</span>
+                <span>90%</span>
+              </div>
+              <div class="skill__bar">
+                <div class="skill__value" style="width: 90%"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill__description">
+                <span>JavaScript</span>
+                <span>80%</span>
+              </div>
+              <div class="skill__bar">
+                <div class="skill__value" style="width: 80%"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill__description">
+                <span>Vue</span>
+                <span>90%</span>
+              </div>
+              <div class="skill__bar">
+                <div class="skill__value" style="width: 90%"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill__description">
+                <span>React</span>
+                <span>70%</span>
+              </div>
+              <div class="skill__bar">
+                <div class="skill__value" style="width: 70%"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill__description">
+                <span>Python</span>
+                <span>80%</span>
+              </div>
+              <div class="skill__bar">
+                <div class="skill__value" style="width: 80%"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill__description">
+                <span>Django</span>
+                <span>70%</span>
+              </div>
+              <div class="skill__bar">
+                <div class="skill__value" style="width: 70%"></div>
+              </div>
+            </div>
+          </div>
+          <div class="skillset__right">
+            <div class="tools">
+              <h3 class="skillset__title" style="margin-top: 0px">Tools</h3>
+              <ul class="tools__list" style="padding-bottom: 14px">
+                <li><span>VisualStudio Code</span></li>
+                <li><span>Project managing tools</span></li>
+                <li><span>Pycharm</span></li>
+                <li><span>WireFrame tools</span></li>
+              </ul>
+            </div>
+            <div class="etc">
+              <h3 class="skillset__title">etc . .</h3>
+              <ul class="etc__list">
+                <li><span>Git</span></li>
+                <li><span>JIRA</span></li>
+                <li><span>Documentation</span></li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-    </div>
-    
-  </section>
-  <!-- Works -->
-  <section id="work" class="section">
-    <div class="container__section">
-      <h1>My work</h1>
-      <h3>Projects</h3>
-      <div class="work__categories">
-        <button class="category__btn selected" data-filter="*">
-          All <span class="category__count">5</span>
-        </button>
-        <button class="category__btn"  data-filter="front-end">
-          Front-end <span class="category__count">4</span>
-        </button>
-        <button class="category__btn"  data-filter="back-end">
-          Back-end <span class="category__count">1</span>
-        </button>
-      </div>
-      <div class="work__projects">
-        <a href="https://github.com/hsy118/Co-Meet"  
-          data-type="front-end"
-          target="_blank"
-          class="project"
+    </section>
+    <!-- Works -->
+    <section id="work" class="section">
+      <div class="container__section">
+        <h1>My work</h1>
+        <h3>Projects</h3>
+        <div class="work__categories">
+          <button class="category__btn selected" data-filter="*">
+            All <span class="category__count">5</span>
+          </button>
+          <button class="category__btn" data-filter="front-end">
+            Front-end <span class="category__count">4</span>
+          </button>
+          <button class="category__btn" data-filter="back-end">
+            Back-end <span class="category__count">1</span>
+          </button>
+        </div>
+        <div class="work__projects">
+          <a
+            href="https://github.com/hsy118/Co-Meet"
+            data-type="front-end"
+            target="_blank"
+            class="project"
           >
-            <img 
-              class="project__img" 
-              src="imgs/projects/co-meet.png" alt="co-meet pjt">
+            <img
+              class="project__img"
+              src="imgs/projects/co-meet.png"
+              alt="co-meet pjt"
+            />
             <div class="project__description">
               <h3>Co-Meet Site</h3>
               <span>Recommend safety meeting place</span>
             </div>
-        </a>
-        <a href="https://github.com/hsy118/Dreamy" 
-          data-type="front-end"
-          target="_blank"
-          class="project"
+          </a>
+          <a
+            href="https://github.com/hsy118/Dreamy"
+            data-type="front-end"
+            target="_blank"
+            class="project"
           >
-            <img 
-              class="project__img" 
-              src="imgs/projects/dreamy.png" alt=
-              "dreamy">
+            <img
+              class="project__img"
+              src="imgs/projects/dreamy.png"
+              alt="dreamy"
+            />
             <div class="project__description">
               <h3>Dreamy Site</h3>
               <span>Bucket-list managin SNS</span>
             </div>
-        </a>
-        <a href="https://github.com/hsy118/movie_project"
-        data-type="front-end" 
-        target="_blank"
-        class="project"
-        >
-          <img 
-            class="project__img" 
-            src="imgs/projects/aboutMovie.png" 
-            alt="about movie">
-          <div class="project__description">
-            <h3>About Movie Site</h3>
-            <span>Recommendate movie to user with teaser</span>
-          </div>
-        </a>
-        <a href="https://github.com/hsy118/responsive-navbar" 
-        data-type="front-end"
-        target="_blank"
-        class="project"
-        >
-          <img 
-            class="project__img" 
-            src="imgs/projects/navbar.png" alt=
-            "navbar">
-          <div class="project__description">
-            <h3>Responsive navbar site</h3>
-            <span>Responsive navbar</span>
-          </div>
-        </a>
-        <a href="https://github.com/hsy118/Larochepoche_cloning" 
-        data-type="back-end"
-        target="_blank"
-        class="project"
-        >
-          <img 
-            class="project__img" 
-            src="imgs/projects/cloning.png" alt
-            ="cloning">
-          <div class="project__description">
-            <h3>Larochepoche cloning site</h3>
-            <span>Larochepoche cloning web site</span>
-          </div>
-        </a>
-      </div>
-    </div>
-  </section>
-  <!-- Testimonials -->
-  <section id="testimonials" class="section">
-    <div class="section__container">
-      <h1>Testimonials</h1>
-      <h3>See what they say about me</h3>
-      <div class="testimonials">
-        <div class="testimonial">
-          <img src="imgs/people1.jpg" alt="People" 
-          class="testimonial__avatar"
-          />
-          <div class="testimonial__speech-bubble">
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
-            <p class="name"><a href="#">Steve</a></p>
-          </div>
-        </div>
-        <div class="testimonial">
-          <div class="testimonial__speech-bubble">
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
-            <p class="name"><a href="#">Steve</a></p>
-          </div>
-          <img src="imgs/people1.jpg" alt="People" 
-          class="testimonial__avatar"
-        />
+          </a>
+          <a
+            href="https://github.com/hsy118/movie_project"
+            data-type="front-end"
+            target="_blank"
+            class="project"
+          >
+            <img
+              class="project__img"
+              src="imgs/projects/aboutMovie.png"
+              alt="about movie"
+            />
+            <div class="project__description">
+              <h3>About Movie Site</h3>
+              <span>Recommendate movie to user with teaser</span>
+            </div>
+          </a>
+          <a
+            href="https://github.com/hsy118/responsive-navbar"
+            data-type="front-end"
+            target="_blank"
+            class="project"
+          >
+            <img
+              class="project__img"
+              src="imgs/projects/navbar.png"
+              alt="navbar"
+            />
+            <div class="project__description">
+              <h3>Responsive navbar site</h3>
+              <span>Responsive navbar</span>
+            </div>
+          </a>
+          <a
+            href="https://github.com/hsy118/Larochepoche_cloning"
+            data-type="back-end"
+            target="_blank"
+            class="project"
+          >
+            <img
+              class="project__img"
+              src="imgs/projects/cloning.png"
+              alt="cloning"
+            />
+            <div class="project__description">
+              <h3>Larochepoche cloning site</h3>
+              <span>Larochepoche cloning web site</span>
+            </div>
+          </a>
         </div>
       </div>
-    </div>
-  </section>
-  <!-- Contact -->
-  <section id="contact" class="section">
-    <h1 class="contact__title">Let's talk</h1>
-    <h2 class="contact__email">cnfen2931@gmail.com</h2>
-    <div class="contact__links">
-      <a href="https://github.com/hsy118" target="_blank">
-        <i class="fab fa-github-square"></i>
-      </a>
-      <a href="https://friendlycoding.tistory.com/" target="_blank">
-        <i class="fab fa-blogger"></i>
-      </a>
-    </div>
-    <p class="contact__rights">2021 SeongYup Coding - All rights reserved</p>
-  </section>
-  <!-- Arrow Up -->
-  <button class="arrow-up">
-    <i class="fas fa-arrow-up"></i>
-  </button>
-</body>
+    </section>
+    <!-- Testimonials -->
+    <section id="testimonials" class="section">
+      <div class="section__container">
+        <h1>Testimonials</h1>
+        <h3>See what they say about me</h3>
+        <div class="testimonials">
+          <div class="testimonial">
+            <img
+              src="imgs/people1.jpg"
+              alt="People"
+              class="testimonial__avatar"
+            />
+            <div class="testimonial__speech-bubble">
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book. It has
+                survived not only five centuries, but also the leap into
+                electronic typesetting, remaining essentially unchanged.
+              </p>
+              <p class="name"><a href="#">Steve</a></p>
+            </div>
+          </div>
+          <div class="testimonial">
+            <div class="testimonial__speech-bubble">
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book. It has
+                survived not only five centuries, but also the leap into
+                electronic typesetting, remaining essentially unchanged.
+              </p>
+              <p class="name"><a href="#">Steve</a></p>
+            </div>
+            <img
+              src="imgs/people1.jpg"
+              alt="People"
+              class="testimonial__avatar"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact -->
+    <section id="contact" class="section">
+      <h1 class="contact__title">Let's talk</h1>
+      <h2 class="contact__email">cnfen2931@gmail.com</h2>
+      <div class="contact__links">
+        <a href="https://github.com/hsy118" target="_blank">
+          <i class="fab fa-github-square"></i>
+        </a>
+        <a href="https://friendlycoding.tistory.com/" target="_blank">
+          <i class="fab fa-blogger"></i>
+        </a>
+      </div>
+      <p class="contact__rights">2021 SeongYup Coding - All rights reserved</p>
+    </section>
+    <!-- Arrow Up -->
+    <button class="arrow-up">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+  </body>
 </html>
